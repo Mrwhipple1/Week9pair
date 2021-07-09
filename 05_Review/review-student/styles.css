@@ -165,3 +165,19 @@ header {
     flex-wrap: nowrap;
     width: 600px;
 }
+
+main {
+    display: inline-grid;
+    grid-template-columns: 1500px auto auto;
+    grid-template-areas: 
+    "img content content";
+}
+
+main>img {
+    grid-area: img;
+}
+
+.content {
+    grid-area: content;
+    
+}
