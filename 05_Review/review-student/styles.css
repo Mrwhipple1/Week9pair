@@ -109,3 +109,39 @@ a {
 a:hover {
     color: #ffffff;
 }
+
+body{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-areas: 
+        "header nav"
+        "main main"
+        "race store"
+        "footer footer"
+        ;
+
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+#race{
+    grid-area: race;
+}
+
+#store{
+    grid-area: store;
+}
+
+footer{
+    grid-area: footer;
+}
